@@ -20,6 +20,7 @@ const Tag = () => {
         className='w-10/12 bg-white text-lg py-2 rounded-lg mt-[3px] text-center'
         onChange={(event)=> setTag(event.target.value)}
         value={tag}
+        placeholder='Enter a Random Name'
         />
 
         <button onClick={()=>{fetchData(tag)}}
